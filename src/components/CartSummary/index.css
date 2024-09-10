@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.cart_summery_container {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.summery_title {
+  color: #616e7c;
+  font-size: 15px;
+  margin-top: 5px;
+}
+span {
+  font-weight: 700;
+  color: black;
+  font-size: 22px;
+}
+.cart_simmery_paragraph {
+  color: #616e7c;
+  font-size: 12px;
+  margin-top: 0px;
+}
+.cart_summery_button {
+  background-color: #0b69ff;
+  height: 35px;
+  color: white;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+.cart_summery_button:hover {
+  scale: 1.05;
+}
+.link-item {
+  text-decoration: none;
+}
